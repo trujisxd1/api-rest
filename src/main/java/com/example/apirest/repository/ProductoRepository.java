@@ -13,19 +13,8 @@ public class ProductoRepository {
 
     private List<Producto> productos  = new ArrayList<>();
 
-    public void crearProducto(){
 
-        productos=List.of(
-                new Producto(1,"producto 01",10,1000),
-                new Producto(2,"producto 02",11,1012),
-                new Producto(3,"producto 03",12,10300),
-                new Producto(4,"producto 04",13,1200),
-                new Producto(5,"producto 05",14,100)
-        );
-
-    }
-
-    public  List<Producto> getallProductos(){
+    public  List<Producto> getAllProductos(){
 
         return productos;
 
